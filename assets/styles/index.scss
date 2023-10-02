@@ -1,0 +1,25 @@
+:root {
+	--text: black;
+	--background: white;
+	--second-background: darkgray;
+	--selection: aquamarine;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: white;
+		--background: black;
+		--second-background: cadetblue;
+		--selection: gray;
+	}
+}
+
+html {
+	border-color: var(--text);
+	color: cadetblue;
+}
+
+body {
+	background-color: var(--background);
+	color: var(--text);
+}

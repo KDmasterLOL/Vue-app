@@ -1,0 +1,10 @@
+%disable-scrollbar {
+	-ms-overflow-style: none; // Internet Explorer 10+
+	scrollbar-width: none; // Firefox
+
+	&::-webkit-scrollbar {
+		// Safari and Chrome
+
+		display: none;
+	}
+}
